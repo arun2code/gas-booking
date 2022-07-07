@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Cylinder Booked</h1>
+    <p th:text="'User Account Number: ' + ${bookCylinder.userAccountNumber}" />
+    <p th:text="'booking date: ' + ${bookCylinder.bookingDate}" />
+     <p th:text="'booking city: ' + ${bookCylinder.location}" />
+    <a href="/bookCylinder">Submit another booking</a>
+    <a href="/">Main Page</a>
+</body>
+</html>
